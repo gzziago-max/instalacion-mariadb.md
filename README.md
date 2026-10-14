@@ -393,26 +393,6 @@ Si la página no aparece, tendremos que revisar la integración de phpMyAdmin co
 
 ---
 
-# Resumen de comandos importantes
 
-| Comando | Función |
-|---|---|
-| sudo apt install mariadb-server -y | Instalar MariaDB |
-| sudo systemctl status mariadb | Ver estado |
-| sudo mariadb | Entrar como administrador |
-| SHOW DATABASES; | Ver bases de datos |
-| CREATE DATABASE nombre; | Crear base de datos |
-| USE nombre; | Seleccionar base de datos |
-| SHOW TABLES; | Ver tablas |
-| DESCRIBE tabla; | Ver estructura |
-| SELECT * FROM tabla; | Consultar datos |
-| INSERT INTO | Insertar datos |
-| UPDATE | Modificar datos |
-| DELETE FROM | Eliminar registros |
-| CREATE USER | Crear usuario |
-| GRANT | Dar permisos |
-| DROP TABLE | Eliminar tabla |
-| DROP DATABASE | Eliminar base de datos |
-| EXIT; | Salir de MariaDB |
 
 **Importante:** los comandos que empiezan por `sudo` se ejecutan en la terminal de Ubuntu. Los comandos SQL se ejecutan dentro de MariaDB y normalmente terminan en punto y coma.
